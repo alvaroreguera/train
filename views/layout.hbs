@@ -2,12 +2,45 @@
 <html>
   <head>
     <title>{{title}}</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
   </head>
   <body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+      <a class="color-brand" href="/">Train Estudios y Proyectos</a>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="link-color" href="/index#sobre-nosotros">Sobre nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="link-color" href="/index#referencias">Referencias</a>
+          </li>
+          <li class="nav-item">
+            <a class="link-color disabled" href="index#contacto">Contacto <span class="en">/ Contact</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
     {{{body}}}
 
+    <footer class="footer">
+      <div class="container">
+        <h4>TRAIN Estudios y Proyectos</h4><p>Embajadores 187 1ºA 28045 Madrid. Tel: (0034) 91 311 29 20. E-mail: <a href="mailto:jcrofso@gmail.com" target="_blank">jcrofso@gmail.com</a></p>
+      </div>
+    </footer>
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../../../dist/js/bootstrap.min.js"></script>
+
     <script src='/javascripts/script.js'></script>
   </body>
+  
 </html>
